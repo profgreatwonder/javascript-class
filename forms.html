@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <form name="formval" method="post">
+        <h3>Bio Form</h3>
+
+        <label for="">Name:</label>
+        <input type="text" name="name" id="myname">
+        <div id="name_error"></div>
+
+        <label for="">Email:</label>
+        <input type="email" name="email">
+        <div id="email_error"></div>
+
+        <label for="">Password:</label>
+        <input type="text" name="initialpassword">
+        <div id="initialpass_error"></div>
+
+        <label for="">Re-enter Password:</label>
+        <input type="text" name="password">
+        <div id="pass_error"></div>
+
+        <button type="submit" onclick="return validate()">Submit</button>
+
+
+    </form>
+
+    <script src="forms/forms.js"></script>
+</body>
+
+</html>

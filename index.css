@@ -1,0 +1,32 @@
+form {
+	width: 300px;
+	background: #fff;
+	padding: 15px 40px 40px;
+	border: 1px solid #ccc;
+	margin: 50px auto 0;
+	border-radius: 5px;
+}
+
+.error {
+	color: red;
+	/* font-size: 90%; */
+}
+
+label {
+	display: block;
+	/* margin-bottom: 5px */
+}
+
+.errorm {
+	padding: 10px;
+	color: red;
+	border: 1px dotted red;
+	/* font-size: 90%; */
+}
+
+.success {
+	padding: 10px;
+	color: green;
+	border: 1px dotted green;
+	/* font-size: 90%; */
+}
