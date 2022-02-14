@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="/valform/newform.css">
+</head>
+
+<body>
+    <form name="newform" id="formnew" method="get" class="form">
+        <label for="name">Name:</label>
+        <input type="text" name="name">
+        <div id="error_name" class="error"></div>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email">
+        <div id="error_email" class="error"></div>
+
+        <label for="initpass">Initial Password:</label>
+        <input type="password" name="initpass">
+        <div id="error_initpass" class="error"></div>
+
+        <label for="pass">Password:</label>
+        <input type="password" name="pass">
+        <div id="error_pass" class="error"></div>
+
+        <input type="submit" value="Submit" class="btn">
+        <!-- <button type="submit" class="btn">Submit</button> -->
+    </form>
+
+    <script src="newform.js"></script>
+</body>
+
+</html>

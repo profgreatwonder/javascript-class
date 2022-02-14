@@ -1,0 +1,20 @@
+.card4 {
+    border: none;
+}
+
+.value {
+    background-image: url(/Images/hallway.webp);
+    color:#fff;
+    background-attachment: fixed;
+}
+
+.opacity{
+    background-color:rgba(0,0,0,0.8);
+    padding:7%;
+}
+
+.list li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 100px;
+}

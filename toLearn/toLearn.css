@@ -1,0 +1,16 @@
+body {
+	background-color: rgb(231, 246, 231);
+}
+input[type="text"],
+input[type="text"]:focus {
+	color: aquamarine;
+	/* border: none; */
+}
+
+.delete {
+	cursor: pointer;
+}
+
+.filtered {
+	display: none !important;
+}
